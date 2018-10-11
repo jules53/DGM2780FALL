@@ -1,0 +1,118 @@
+html {
+  font-size: 62.5%;
+}
+header {
+  background-color: #dae5e1;
+  margin: 0 0 0 0;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #577f71;
+  margin: 0 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-container {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  align-items: center;
+}
+header .nav-container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-container nav ul li {
+  justify-content: center;
+  float: left;
+  list-style: none;
+}
+header .nav-container nav ul li a {
+  font-weight: 300;
+  color: #192420;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+/* Overall styling for the BODY of the document */
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+body main {
+  /**** SPA MENU ****/
+}
+body main h1 {
+  display: flex;
+  justify-content: center;
+  color: #577f71;
+  font-weight: 300;
+  margin: 0 2%;
+  font-size: 2.5rem;
+}
+body main section {
+  display: flex;
+  justify-content: center;
+}
+body main section figure {
+  width: 100%;
+}
+body main section img {
+  width: 100%;
+}
+body main section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+body main section .container figure {
+  max-width: 100%;
+}
+body main section .container figure img {
+  width: 100%;
+}
+body main .gallery {
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+body main .gallery figure {
+  max-width: 100%;
+}
+body main .gallery figure img {
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+}
+body main section.list1 {
+  display: flex;
+  flex-direction: column;
+}
+body main section.list1 h2 {
+  color: #577f71;
+  font-weight: 300;
+  font-size: 2rem;
+}
+body main section.list1 ul li {
+  font-weight: 300;
+  list-style: none;
+}
+body main section.list1 ul li a {
+  color: #2e423b;
+}
+footer {
+  background-color: #dae5e1;
+  width: 100%;
+  padding: 5px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  color: #577f71;
+}
