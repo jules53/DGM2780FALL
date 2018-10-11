@@ -1,0 +1,167 @@
+@primaryColor: #dae5e1;
+@secondaryColor: #577f71;
+@fontColor: #35373a;
+@defaultFont:'Lato', sans-serif;
+@normalWeight: 300;
+@boldWeight: 700;
+@gutter: 2%;
+
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+	background-color: @primaryColor;
+  margin: 0 0 0 0;
+  height: 125px;
+	display: flex;
+	justify-content: center;
+
+	h1 {
+		  font-size: 2.6rem;
+      font-weight: @boldWeight;
+	    color: @secondaryColor;
+      margin: 0 @gutter;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+   
+   .nav-container {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    align-items: center;
+
+      nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+     ul li {
+      justify-content: center;
+      float: left;
+      list-style: none;
+      
+        a {
+          font-weight: @normalWeight;
+          color: darken(@secondaryColor, 30%);
+          font-size: 1.5rem;
+          margin-left: 20px;
+        }
+     
+      }
+    }
+  }
+  
+
+
+}
+
+
+/* Overall styling for the BODY of the document */
+
+body{
+  font-family: @defaultFont;
+  font-weight: @normalWeight;
+  font-size: 16px;
+
+  
+
+main {
+
+  h1 {
+  display: flex;
+  justify-content: center;
+  color: @secondaryColor;
+  font-weight: @normalWeight;
+  margin: 0 @gutter;
+  font-size: 2.5rem;   
+  }
+
+
+
+  section {
+    display: flex;
+    justify-content: center;
+      figure {
+        width: 100%;
+      }
+        img {
+        width: 100%;
+        }
+  }
+
+
+  section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    .container {
+      figure {
+         max-width: 100%;
+        img {width: 100%;}
+      } //end figure
+    } //end container
+  }// end section
+
+  .gallery {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+      
+        figure {
+          max-width: 100%;
+          img {
+            width: 100%;
+            max-width: 200px;
+            max-height: 200px;
+            }
+        }
+      }
+
+
+      /**** SPA MENU ****/
+
+      section.list1 {
+        display: flex;
+        flex-direction: column;
+          h2 {
+            color: @secondaryColor;
+            font-weight: @normalWeight;
+            font-size: 2rem;
+          }
+
+          ul li {
+            font-weight: @normalWeight;
+            list-style: none;
+              a {
+                color: darken(@secondaryColor, 20%);
+              }
+          }
+      }
+
+  }//end main
+}// end body
+ 
+
+	
+
+  footer {
+      background-color: @primaryColor;
+      width: 100%;
+      padding: 5px;
+      font-weight: @normalWeight;
+      display: flex;
+      justify-content: center; 
+      flex-wrap: nowrap;
+      color: @secondaryColor;
+      }
+
+
+
+
+
